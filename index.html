@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calculadora de porcentaje de descuento | Gratis y online</title>
+<meta name="description" content="Calcula el porcentaje de descuento, el precio final o el precio original en segundos. Calculadora gratis con fórmulas, ejemplos y respuestas a preguntas frecuentes.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<link rel="canonical" href="https://www.tudominio.com/calculadora-de-porcentaje-de-descuento/">
+<link rel="alternate" hreflang="es" href="https://www.tudominio.com/calculadora-de-porcentaje-de-descuento/">
+<link rel="alternate" hreflang="x-default" href="https://www.tudominio.com/calculadora-de-porcentaje-de-descuento/">
+<meta name="theme-color" content="#12202E">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Calculadora de porcentaje de descuento">
+<meta property="og:description" content="Descubre cuánto ahorras y cuánto pagas realmente con esta calculadora de descuentos gratuita.">
+<meta property="og:url" content="https://www.tudominio.com/calculadora-de-porcentaje-de-descuento/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Calculadora de porcentaje de descuento">
+<meta name="twitter:description" content="Calcula precio final, ahorro y porcentaje de descuento al instante.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%25%3C/text%3E%3C/svg%3E">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebApplication","name":"Calculadora de porcentaje de descuento","url":"https://www.tudominio.com/calculadora-de-porcentaje-de-descuento/","applicationCategory":"FinanceApplication","operatingSystem":"Cualquiera","inLanguage":"es","description":"Calcula el precio final, el ahorro y el porcentaje de descuento de cualquier oferta.","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"}},
+{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Inicio","item":"https://www.tudominio.com/"},{"@type":"ListItem","position":2,"name":"Calculadora de porcentaje de descuento"}]},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"¿Cómo se calcula el porcentaje de descuento?","acceptedAnswer":{"@type":"Answer","text":"Resta el precio final al precio original, divide el resultado entre el precio original y multiplica por 100. Por ejemplo, un producto de 80 que cuesta 60 tiene un descuento del 25 %."}},
+{"@type":"Question","name":"¿Cómo saco el precio final con descuento?","acceptedAnswer":{"@type":"Answer","text":"Multiplica el precio original por el porcentaje de descuento dividido entre 100 para obtener el ahorro y réstalo al precio original. También puedes multiplicar el precio por (1 − descuento/100)."}},
+{"@type":"Question","name":"¿Cómo calculo el precio original si solo conozco el precio rebajado?","acceptedAnswer":{"@type":"Answer","text":"Divide el precio final entre (1 − descuento/100). Si pagas 75 con un 25 % de descuento, el precio original era 100."}},
+{"@type":"Question","name":"¿Dos descuentos del 20 % equivalen a un 40 %?","acceptedAnswer":{"@type":"Answer","text":"No. El segundo descuento se aplica sobre el precio ya rebajado, por lo que dos descuentos sucesivos del 20 % equivalen a un 36 % de descuento total."}},
+{"@type":"Question","name":"¿El descuento incluye el IVA?","acceptedAnswer":{"@type":"Answer","text":"Depende de la tienda. Lo habitual es que el descuento se aplique sobre el precio que ves en la etiqueta, que en la mayoría de países ya incluye impuestos. Comprueba siempre el total en la caja."}}
+]}]}
+</script>
+
+<style>
+:root{--bg:#F4F6F8;--surface:#fff;--ink:#12202E;--muted:#5A6978;--line:#D9DFE5;--accent:#E2483D;--accent-ink:#B8322A;--focus:#1D6FDB;--r:10px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0E151C;--surface:#16212B;--ink:#EAF0F5;--muted:#9AA9B7;--line:#2A3846;--accent:#FF6A5E;--accent-ink:#FF8A80}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:0 auto;padding:0 20px}
+header.site{padding:28px 0 8px}
+nav[aria-label="Migas de pan"]{font-size:14px;color:var(--muted)}
+nav a{color:var(--muted)}
+h1{font-size:clamp(30px,5.5vw,46px);line-height:1.1;margin:18px 0 12px;letter-spacing:-.02em;font-weight:750}
+.lead{color:var(--muted);margin:0 0 28px;max-width:60ch}
+h2{font-size:25px;line-height:1.25;margin:52px 0 14px;letter-spacing:-.01em}
+h3{font-size:19px;margin:28px 0 6px}
+p{margin:0 0 14px;max-width:68ch}
+a{color:var(--accent-ink)}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:4px}
+
+.tool{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:22px}
+.modes{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;background:var(--bg);padding:5px;border-radius:8px;margin-bottom:22px}
+.modes input{position:absolute;opacity:0;pointer-events:none}
+.modes label{text-align:center;font-size:14px;line-height:1.3;padding:10px 6px;border-radius:6px;cursor:pointer;color:var(--muted);font-weight:600}
+.modes input:checked+label{background:var(--surface);color:var(--ink);box-shadow:0 0 0 1px var(--line)}
+.modes input:focus-visible+label{outline:3px solid var(--focus)}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.field label{display:block;font-size:14px;font-weight:600;margin-bottom:6px}
+.field input,.field select{width:100%;font:inherit;font-size:20px;padding:11px 13px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--ink)}
+.field select{font-size:17px}
+.field input:focus{border-color:var(--focus)}
+.field.full{grid-column:1/-1}
+.hint{font-size:13px;color:var(--muted);margin:6px 0 0}
+.result{margin-top:22px;border-top:1px dashed var(--line);padding-top:20px;display:grid;grid-template-columns:1.4fr 1fr;gap:18px;align-items:end}
+.result .label{font-size:14px;color:var(--muted)}
+.big{font-size:clamp(38px,9vw,58px);font-weight:800;letter-spacing:-.03em;line-height:1.05;color:var(--accent);font-variant-numeric:tabular-nums;word-break:break-word}
+.side{font-size:15px;color:var(--muted)}
+.side strong{display:block;font-size:22px;color:var(--ink);font-variant-numeric:tabular-nums}
+.msg{min-height:1.4em;margin:14px 0 0;font-size:14px;color:var(--accent-ink)}
+.actions{margin-top:6px;display:flex;gap:10px}
+button{font:inherit;font-size:15px;font-weight:600;padding:9px 16px;border-radius:8px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer}
+button:hover{border-color:var(--ink)}
+
+.formula{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:var(--r);padding:14px 18px;margin:0 0 14px;font-variant-numeric:tabular-nums}
+.formula b{display:block;font-size:14px;color:var(--muted);font-weight:600}
+table{width:100%;border-collapse:collapse;font-size:15px;font-variant-numeric:tabular-nums;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+th,td{padding:10px 14px;text-align:right;border-bottom:1px solid var(--line)}
+th:first-child,td:first-child{text-align:left}
+th{font-size:14px;background:var(--bg)}
+tr:last-child td{border-bottom:0}
+.scroll{overflow-x:auto}
+ol,ul{padding-left:22px;margin:0 0 14px}li{margin-bottom:6px}
+details{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px 18px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:650}
+details p{margin:10px 0 0}
+footer{margin:60px 0 40px;padding-top:20px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+@media (max-width:560px){.fields,.result{grid-template-columns:1fr}.modes label{font-size:13px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="site wrap">
+  <nav aria-label="Migas de pan"><a href="/">Inicio</a> / Calculadora de porcentaje de descuento</nav>
+  <h1>Calculadora de porcentaje de descuento</h1>
+  <p class="lead">Averigua cuánto ahorras y cuánto vas a pagar de verdad. Elige qué quieres calcular, escribe los datos y el resultado aparece al instante.</p>
+</header>
+
+<main class="wrap">
+  <section class="tool" aria-labelledby="t-calc">
+    <h2 id="t-calc" style="position:absolute;left:-9999px">Calculadora</h2>
+    <div class="modes" role="radiogroup" aria-label="Qué quieres calcular">
+      <input type="radio" name="mode" id="m1" value="final" checked><label for="m1">Precio con descuento</label>
+      <input type="radio" name="mode" id="m2" value="pct"><label for="m2">Porcentaje de descuento</label>
+      <input type="radio" name="mode" id="m3" value="orig"><label for="m3">Precio original</label>
+    </div>
+
+    <div class="fields">
+      <div class="field" id="f-orig"><label for="orig">Precio original</label><input id="orig" inputmode="decimal" autocomplete="off" placeholder="100"></div>
+      <div class="field" id="f-pct"><label for="pct">Descuento (%)</label><input id="pct" inputmode="decimal" autocomplete="off" placeholder="25"></div>
+      <div class="field" id="f-final" hidden><label for="final">Precio final</label><input id="final" inputmode="decimal" autocomplete="off" placeholder="75"></div>
+      <div class="field full"><label for="cur">Moneda</label>
+        <select id="cur"><option value="€">Euro (€)</option><option value="$">Dólar / Peso ($)</option><option value="£">Libra (£)</option><option value="S/">Sol (S/)</option><option value="">Sin símbolo</option></select>
+        <p class="hint">Puedes usar punto o coma como separador decimal.</p></div>
+    </div>
+
+    <p class="msg" id="msg" role="alert"></p>
+
+    <div class="result" aria-live="polite">
+      <div><div class="label" id="r-label">Precio final</div><div class="big" id="r-main">—</div></div>
+      <div class="side"><span id="s-label">Ahorras</span><strong id="r-side">—</strong></div>
+    </div>
+    <div class="actions"><button type="button" id="reset">Borrar datos</button><button type="button" id="copy">Copiar resultado</button></div>
+  </section>
+
+  <article>
+    <h2>¿Qué es un porcentaje de descuento?</h2>
+    <p>El porcentaje de descuento indica qué parte del precio original se rebaja en una oferta. Un descuento del 20 % significa que pagas 20 de cada 100 unidades menos. Es la forma más común de comunicar rebajas en tiendas físicas, comercio electrónico, rebajas de temporada, el Black Friday o los cupones promocionales.</p>
+    <p>Saber calcularlo te permite comparar ofertas de forma objetiva, detectar descuentos poco atractivos y decidir si una compra realmente te conviene.</p>
+
+    <h2>Fórmulas para calcular descuentos</h2>
+    <div class="formula"><b>Ahorro</b>Ahorro = Precio original × (Descuento ÷ 100)</div>
+    <div class="formula"><b>Precio final</b>Precio final = Precio original − Ahorro = Precio original × (1 − Descuento ÷ 100)</div>
+    <div class="formula"><b>Porcentaje de descuento</b>Descuento (%) = (Precio original − Precio final) ÷ Precio original × 100</div>
+    <div class="formula"><b>Precio original</b>Precio original = Precio final ÷ (1 − Descuento ÷ 100)</div>
+
+    <h2>Cómo usar esta calculadora paso a paso</h2>
+    <ol>
+      <li>Selecciona la pestaña: <strong>Precio con descuento</strong>, <strong>Porcentaje de descuento</strong> o <strong>Precio original</strong>.</li>
+      <li>Escribe los dos datos que conoces en los campos que aparecen.</li>
+      <li>Consulta el resultado y el ahorro, que se actualizan mientras escribes.</li>
+      <li>Pulsa «Copiar resultado» si quieres guardarlo o compartirlo.</li>
+    </ol>
+
+    <h2>Ejemplos prácticos</h2>
+    <h3>Ejemplo 1: calcular el precio final</h3>
+    <p>Unas zapatillas cuestan 120 € y tienen un 30 % de descuento. El ahorro es 120 × 0,30 = 36 €, así que pagas 120 − 36 = <strong>84 €</strong>.</p>
+    <h3>Ejemplo 2: calcular el porcentaje</h3>
+    <p>Un televisor pasa de 500 € a 399 €. El descuento es (500 − 399) ÷ 500 × 100 = <strong>20,2 %</strong>.</p>
+    <h3>Ejemplo 3: calcular el precio original</h3>
+    <p>Pagaste 63 € con un 10 % de descuento. El precio original era 63 ÷ 0,90 = <strong>70 €</strong>.</p>
+
+    <h2>Tabla de descuentos habituales sobre 100</h2>
+    <div class="scroll"><table>
+      <thead><tr><th>Descuento</th><th>Ahorro</th><th>Precio final</th></tr></thead>
+      <tbody>
+        <tr><td>5 %</td><td>5,00</td><td>95,00</td></tr>
+        <tr><td>10 %</td><td>10,00</td><td>90,00</td></tr>
+        <tr><td>15 %</td><td>15,00</td><td>85,00</td></tr>
+        <tr><td>20 %</td><td>20,00</td><td>80,00</td></tr>
+        <tr><td>25 %</td><td>25,00</td><td>75,00</td></tr>
+        <tr><td>30 %</td><td>30,00</td><td>70,00</td></tr>
+        <tr><td>40 %</td><td>40,00</td><td>60,00</td></tr>
+        <tr><td>50 %</td><td>50,00</td><td>50,00</td></tr>
+        <tr><td>70 %</td><td>70,00</td><td>30,00</td></tr>
+      </tbody>
+    </table></div>
+
+    <h2>Consejos para no equivocarte con las ofertas</h2>
+    <ul>
+      <li><strong>Los descuentos sucesivos no se suman.</strong> Un 20 % seguido de otro 20 % equivale a un 36 % total, no a un 40 %.</li>
+      <li><strong>Compara el precio final, no solo el porcentaje.</strong> Un 50 % sobre un precio inflado puede costar más que un 20 % en otra tienda.</li>
+      <li><strong>Revisa gastos de envío e impuestos.</strong> Pueden reducir el ahorro real.</li>
+      <li><strong>Calcula el ahorro en dinero.</strong> Un 10 % en un producto caro puede superar un 40 % en uno barato.</li>
+    </ul>
+
+    <h2>Preguntas frecuentes</h2>
+    <details><summary>¿Cómo se calcula el porcentaje de descuento?</summary><p>Resta el precio final al precio original, divide entre el precio original y multiplica por 100. Si un producto de 80 cuesta 60, el descuento es del 25 %.</p></details>
+    <details><summary>¿Cómo saco el precio final con descuento?</summary><p>Multiplica el precio original por el descuento dividido entre 100 para obtener el ahorro y réstalo del precio original. También puedes multiplicar el precio por (1 − descuento/100).</p></details>
+    <details><summary>¿Cómo calculo el precio original si solo conozco el precio rebajado?</summary><p>Divide el precio final entre (1 − descuento/100). Si pagas 75 con un 25 % de descuento, el precio original era 100.</p></details>
+    <details><summary>¿Dos descuentos del 20 % equivalen a un 40 %?</summary><p>No. El segundo descuento se aplica sobre el precio ya rebajado, por lo que dos descuentos sucesivos del 20 % equivalen a un 36 % total.</p></details>
+    <details><summary>¿El descuento incluye el IVA?</summary><p>Depende de la tienda. Lo habitual es que se aplique sobre el precio de etiqueta, que en la mayoría de países ya incluye impuestos. Comprueba siempre el total en la caja.</p></details>
+  </article>
+</main>
+
+<footer class="wrap">© <span id="y">2026</span> · Calculadora de porcentaje de descuento. Los resultados son orientativos; verifica siempre el precio final en el comercio.</footer>
+
+<script>
+(function(){
+  var $=function(i){return document.getElementById(i)};
+  var o=$('orig'),p=$('pct'),f=$('final'),cur=$('cur'),msg=$('msg');
+  var rm=$('r-main'),rs=$('r-side'),rl=$('r-label'),sl=$('s-label');
+  var last='';
+  $('y').textContent=new Date().getFullYear();
+  function num(el){var v=el.value.trim().replace(/\s/g,'').replace(',','.');if(v==='')return null;var n=Number(v);return isFinite(n)?n:NaN}
+  function money(n){var s=cur.value;var t=n.toLocaleString('es-ES',{minimumFractionDigits:2,maximumFractionDigits:2});return s?t+' '+s:t}
+  function mode(){return document.querySelector('input[name=mode]:checked').value}
+  function setView(){
+    var m=mode();
+    $('f-orig').hidden=(m==='orig');
+    $('f-pct').hidden=(m==='pct');
+    $('f-final').hidden=(m==='final');
+    calc();
+  }
+  function out(a,b,c,d){rl.textContent=a;rm.textContent=b;sl.textContent=c;rs.textContent=d;last=a+': '+b+' ('+c+': '+d+')'}
+  function calc(){
+    var m=mode(),O=num(o),P=num(p),F=num(f);msg.textContent='';
+    if(m==='final'){
+      if(O===null||P===null)return out('Precio final','—','Ahorras','—');
+      if(isNaN(O)||isNaN(P)||O<0||P<0||P>100){msg.textContent='Introduce un precio positivo y un descuento entre 0 y 100.';return out('Precio final','—','Ahorras','—')}
+      var s=O*P/100;return out('Precio final',money(O-s),'Ahorras',money(s));
+    }
+    if(m==='pct'){
+      if(O===null||F===null)return out('Descuento','—','Ahorras','—');
+      if(isNaN(O)||isNaN(F)||O<=0||F<0){msg.textContent='Introduce un precio original mayor que 0 y un precio final válido.';return out('Descuento','—','Ahorras','—')}
+      var d=(O-F)/O*100;
+      if(d<0)msg.textContent='El precio final es mayor que el original: en realidad es un aumento.';
+      return out('Descuento',d.toLocaleString('es-ES',{maximumFractionDigits:2})+' %','Ahorras',money(O-F));
+    }
+    if(F===null||P===null)return out('Precio original','—','Ahorras','—');
+    if(isNaN(F)||isNaN(P)||F<0||P<0||P>=100){msg.textContent='Introduce un precio final válido y un descuento menor que 100.';return out('Precio original','—','Ahorras','—')}
+    var og=F/(1-P/100);return out('Precio original',money(og),'Ahorras',money(og-F));
+  }
+  [o,p,f].forEach(function(e){e.addEventListener('input',calc)});
+  cur.addEventListener('change',calc);
+  Array.prototype.forEach.call(document.querySelectorAll('input[name=mode]'),function(r){r.addEventListener('change',setView)});
+  $('reset').addEventListener('click',function(){o.value=p.value=f.value='';calc();o.focus()});
+  $('copy').addEventListener('click',function(){
+    if(rm.textContent==='—')return;
+    var b=$('copy'),t=b.textContent;
+    function done(){b.textContent='¡Copiado!';setTimeout(function(){b.textContent=t},1500)}
+    try{navigator.clipboard.writeText(last).then(done,function(){})}catch(e){}
+  });
+  setView();
+})();
+</script>
+</body>
+</html>
